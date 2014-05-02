@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* CSS Document - snippet of harvard.css focused on monthly calendar view */
+
+
+/* ... */
+
+
+/* Montly Calendar Related Calendar */
+
+.page-calendar-month .region-content { 
+	width: 80%;
+	float: left;
+}
+#content .section {
+	display:  block;
+}
+.calendar-calendar .calendar.monthview {
+	height: 10em !important;
+	background: none !important;
+	position: relative;
+	left: -1px;
+}
+.calendar img {
+	max-width: 100%;
+	height: 80px; /* Added to rezise calendar blocks */
+	width: 80px; /* Added to rezise calendar blocks */
+	border: 2px solid #CCC;
+	z-index: 0;
+	cursor: pointer;
+	margin: 2px 0 0 6px; /* Added to rezise calendar blocks */
+}
+.calendar-calendar td a {
+	position: absolute;
+	left: 0px;
+	top: 100%;
+}
+.cutoff {
+	background: none !important;
+}
+#selected_date_detail {
+	background-color: #E6E8E7;
+	width: 14%;
+	float: right;
+	padding: 10px 10px 10px 12px;
+	margin-top: 95px;
+	overflow: scroll;
+	height: 515px;
+}
+.calendar-calendar td {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;	
+	border-top: 0;
+	border-bottom:0;
+}
+.contents {
+	width: 90px !important;
+}
+#selected_date_detail .contents {
+	width: 125px !important;
+}
+
+.month.day {
+	position: relative;
+	top: 18px;
+	z-index:1;
+	left: -1px;
+	color:white;
+	font-size: 50px; 
+	cursor: pointer;
+}
+.calendar-calendar .item {
+	width: 100px;
+	position: absolute;
+	margin-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.date-box {
+	height: 110px !important;
+	overflow: hidden;
+}
+.no-entry, tr.multi-day {
+	display: none;
+}
+.calendar-calendar .month-view .full td, .calendar-calendar .week-view .full td, .calendar-calendar .day-view td {
+	padding: 0;
+}
+.calendar-calendar td {
+	border: none;
+}
+.calendar-calendar td.date-box {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+#selected_date_detail .hide_calendar_item {
+	display:inherit;
+	visibility: visible;
+}
+#selected_date_detail img {
+	display: none;
+}
+
+#selected_date_detail .calendar.monthview {
+ 	width: 125px;
+ 	font-size: 14px;
+}
+.no_calendar_item {
+	background-color: #e5e7e6;
+	width: 80px; /* Added to rezise calendar blocks */
+	height: 80px; /* Added to rezise calendar blocks */
+	margin-top: 12px;
+	border: 2px solid #e5e7e6;
+	/* margin-left: 4px; */
+	margin-left: 9px; /* Added to rezise calendar blocks */
+}
+.empty {
+	background-color: white !important;
+}
+.no_event_text {
+	z-index: 2;
+	clear:both;
+	text-align: center;
+	position: relative;
+	top: -23px;
+	left: 3px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: gray;
+	cursor: pointer;
+}
+.calendar-calendar th.days {
+	background-color: white;
+	border: 0px;
+}
+.days {
+	font-weight: 300 !important;
+	font-family: ltc-bodoni-175,serif;
+	text-transform: lowercase;
+	font-size: 18px;
+	text-align: left !important;
+	padding-left: 5px !important;
+}
+.date-nav {
+ 	font-family: ltc-bodoni-175,serif;
+ 	color: gray;
+}
+.date-nav h3 {
+	font-size: 25px !important;
+	color: #BAB8B9;
+	text-align: left;
+	margin-top: -5px !important;
+}
+.view .date-nav-wrapper .date-prev, .view .date-nav-wrapper .date-next {
+	background: white;
+	width: 75px;
+	margin-left: 575px;
+}
+.view .date-nav-wrapper .date-prev a, .view .date-nav-wrapper .date-next a {
+	font-size: 14px;
+}
+#selected_date_detail .field-name-field-associatedevent {
+	color: #990100;
+}
+#selected_date_detail .field-name-field-speaker {
+	font-weight: 500;
+}
+.calendar-calendar .month-view .full td.date-box.today, .calendar-calendar .month-view .full tr td.multi-day.ends-today, .calendar-calendar .month-view .full tr td.multi-day.starts-today {
+	border: none;
+}
+.selected_date img {
+	border: 2px solid #990100;
+}
+.selected_date .no_calendar_item {
+	border: 2px solid #990100;
+}
+.calendar-calendar .date-display-single {
+	visibility: hidden;
+}
+#selected_date_detail .date-display-single {
+	visibility: visible;
+	display: block;
+}
+#selected_date_detail p {
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 0;
+}
+.switch {
+	position: relative;
+	top: 10px;
+	float: left;
+	font-size: 14px;
+}
+.pager {
+	width: 720px;
+	font-size: 14px;
+	position: relative !important;
+	top: -20px !important;
+}
+.view .pager .date-prev a, .view .pager .date-next a {
+	font-size: 14px;
+}
+#selected_date_detail .starts-today {
+	float: left !important;
+}
+
+/* ... */
